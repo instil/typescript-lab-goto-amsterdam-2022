@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="bundle.js"></script>
+    <title>Type Programming in TypeScript</title>
+</head>
+<body onload="ExamplesLibrary.doSetup()">
+<div class="container">
+    <h1>Type Programming in TypeScript</h1>
+    <hr/>
+    <h3>Settings Menu</h3>
+    <form id="videoSettingsForm">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="mainVideoURL">
+                    Select the main video to play
+                </label>
+                <select class="form-control" id="mainVideoURL">
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="backupVideoURL">
+                    Select the backup video to play
+                </label>
+                <select class="form-control" id="backupVideoURL">
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="videoHeight">
+                    Select the height
+                </label>
+                <input type="number" id="videoHeight"
+                       class="form-control"
+                       min="100" max="800" required>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="videoWidth">
+                    Select the width
+                </label>
+                <input type="number" id="videoWidth"
+                       class="form-control"
+                       min="100" max="800" required>
+            </div>
+        </div>
+        <input type="submit" class="btn btn-primary" value="Submit New Settings"/>
+    </form>
+    <hr/>
+    <h3 id="videoTitle"></h3>
+    <iframe id="theVideo">
+    </iframe>
+    <form>
+        <button id="switchButton" class="btn btn-primary">
+            I'm Bored - Show Me Another
+        </button>
+    </form>
+</div>
+</body>
+</html>

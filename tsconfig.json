@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "strictNullChecks": true,
+    "lib": [
+      "dom",
+      "es2019"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
