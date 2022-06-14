@@ -2,6 +2,8 @@
 
 This lab will show you how advanced features of the TypeScript language can be used to make your code shorter, safer and (to a certain extent) self describing. We will take a simple problem, with an inelegant solution, and improve it over a series of iterations.
 
+Slides are available [here](https://drive.google.com/drive/folders/1eVxYV16e0PaEgBPhwu7qa5dRj1-u_6-L?usp=sharing).
+
 ### The Problem ###
 
 We are asked to design a web page which allows users to view a video, and switch to a backup video if they choose. A form should allow the user to choose the main and backup videos, and to alter the height and width of the video player.
